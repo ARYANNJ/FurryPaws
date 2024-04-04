@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ultra&display=swap');
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+.logo{
+  font-family: "Ultra", serif;
+}
+.navbar{
+  justify-content: space-between;
+  display: flex;
+ align-items: center;
+}
+.dropbtn {
+  background: white;
+  color: rgb(0, 0, 0);
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.loginButton{
+  border: 2px solid black;
+}
