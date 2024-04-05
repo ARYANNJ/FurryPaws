@@ -12,7 +12,10 @@
   display: flex;
  align-items: center;
  text-align: center;
+ height: 50px;
+ margin-top: 30px;
 }
+
 .dropbtn {
   background: white;
   color: rgb(0, 0, 0);
@@ -27,6 +30,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100px;
 }
 
 /* Dropdown Content (Hidden by Default) */

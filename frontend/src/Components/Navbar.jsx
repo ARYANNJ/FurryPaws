@@ -10,7 +10,7 @@ export const Navbar = () => {
     <Box className="side" sx={{display:"flex",gap:"20px",alignItems:"center"}}>
     <Button variant='outline'href='/home' >Home</Button>
 <Dropdown/>
-<Button variant='outline' sx={{border:"2px solid black"}} href='/login'>login</Button>
+<Button variant='outline' sx={{border:"2px solid black" ,marginRight:"60px"}} href='/login'>login</Button>
     </Box>
 
      </div>
